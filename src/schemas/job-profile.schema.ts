@@ -22,5 +22,5 @@ export const JobProfileSchema = z.object({
   ),
 });
 
-export type JobProfileSchemaType =
+export type JobProfile =
   z.infer<typeof JobProfileSchema>;
